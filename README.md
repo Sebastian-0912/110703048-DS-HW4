@@ -8,12 +8,14 @@
  
 2.	Responses to the following questions:
 I.	What is the relationship between 𝑥 and 𝑑? 
+
  ![image](https://user-images.githubusercontent.com/94668166/212936489-9839d051-4a04-4c31-90f3-06856631742b.png)
 
 由結果可知，當X越大，d就越小，而且是以指數速度下降，最後趨向 
 d=5.5。原因是當可以走的路越來越多，自然就不會需要走那麼多的路才能到達目的地。
 
 II.	What is the relationship between 𝑦 and 𝑑?
+
  ![image](https://user-images.githubusercontent.com/94668166/212936549-5650bb37-2a2b-4852-b563-4ec3438a562a.png)
 
 由結果可知，當y越大，d就越大，而且有點像線性成長。原因是，本來
@@ -35,8 +37,6 @@ https://github.com/mehulthakral/dijkstra-using-different-heaps
 
 
 5.	數據
-	本次作業的數據皆是寫程式跑出來的，而程式碼皆在github上！
-(https://github.com/Sebastian-0912/110703048-DS-HW4 )
-而數據在下方。
+	本次作業的數據皆是寫程式跑出來的，而數據在下方。
  ![image](https://user-images.githubusercontent.com/94668166/212936751-e9c6b96a-18c0-42d1-b142-bbf74da867fc.png)
 ![image](https://user-images.githubusercontent.com/94668166/212936796-666cd2a2-0b6a-407e-8638-40c1354f2324.png)
