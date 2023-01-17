@@ -29,6 +29,7 @@ III.How to choose 𝑧 to obtain a reasonable approximation of the true average 
 選擇不同數量的sample值，對結果或多或少會有不同，尤其一開始和實際結果一定會相差不少，但是當 z 由小漸漸增大時，我們可以發現它會漸漸趨近一個值(也就是數學上的 收斂 )，所以我們不需要實際的算出一個值，而是去尋找當 z 大到多少時，時間會開始收斂，此時的 Z 正是可以合理代表整體平均所需要的sample數量。
 
 IV.Which implementation of Dijkstra's Algorithm is faster?
+
 這次我挑選的是binary_heap和 fibonacci_heap。雖然就理論來說，fibonacci應該要較快，但由結果可以得知在資料較少時，binary是較快一點點的，而在資料多時fibonacci才會較快。原本對於結果感到怪怪的，但仔細思考過後，其實挺合理的，因為fibonacci雖然amortize之後的時間較快，但每回合也要做較多的步驟(expose，merge…)，所以在資料不多時，反而fibonacci還是要做較多的事，於是就慢了下來。
 
 3.程式碼來源
